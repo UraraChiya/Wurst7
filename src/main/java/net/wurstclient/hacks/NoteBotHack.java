@@ -569,7 +569,7 @@ public class NoteBotHack extends Hack implements UpdateListener, RenderListener
 
             Matrix4f viewMatrix = matrixStack.peek().getPositionMatrix();
             Matrix4f projMatrix = RenderSystem.getProjectionMatrix();
-            ShaderProgram shader = RenderSystem.getShader();
+            Shader shader = RenderSystem.getShader();
             RenderSystem.setShaderColor(colorF[0], colorF[1], colorF[2], 0.25F);
 
             solidBox.bind();
