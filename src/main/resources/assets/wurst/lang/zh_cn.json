@@ -66,7 +66,7 @@
   "description.wurst.hack.extraelytra": "让你的鞘翅更加容易使用。",
   "description.wurst.hack.fancychat": "在发送消息时，用更好的 Unicode 字符替换 ASCII 字符。这个功能可以用于绕过在一些服务器上对于英文字符的限制。\n但对于那些禁用 Unicode 字符的服务器不起作用。",
   "description.wurst.hack.fastbreak": "使你更快地破坏方块。\n提示：可以和 Nuker 功能配合利用。",
-  "description.wurst.hack.fastladder": "加快你攀爬梯子的速度。",
+  "description.wurst.hack.fastladder": "让你可以更快地爬上梯子和所有的藤蔓。",
   "description.wurst.hack.fastplace": "使你放置方块的速度达到原本的5倍或以上。\n提示：这个能增加 AutoBuild 功能的速度。",
   "description.wurst.hack.feedaura": "自动喂食你附近的动物。",
   "description.wurst.hack.fightbot": "自动寻找并击杀最近的实体。\n很适合刷怪区域。",
