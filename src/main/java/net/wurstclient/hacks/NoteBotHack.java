@@ -533,7 +533,7 @@ public class NoteBotHack extends Hack implements UpdateListener, RenderListener
         int regionX = (camPos.getX() >> 9) * 512;
         int regionZ = (camPos.getZ() >> 9) * 512;
 
-        RenderSystem.setShader(GameRenderer::getPositionProgram);
+        RenderSystem.setShader(GameRenderer::getPositionShader);
 		renderBoxes(matrixStack, playingBoxes, getColorF(Color.BLUE), regionX, regionZ);
         renderBoxes(matrixStack, tuningBoxes, getColorF(Color.YELLOW), regionX, regionZ);
         renderBoxes(matrixStack, tunedBoxes, getColorF(Color.GREEN), regionX, regionZ);
