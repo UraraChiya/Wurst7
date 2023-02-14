@@ -122,6 +122,7 @@
   "description.wurst.hack.nukerlegit": "NukerLegit 能够绕过所有的反作弊检测。\n在正常的 NoCheat+（NCP）服务器上不需要！",
   "description.wurst.hack.openwateresp": "显示你是否在一个“开放水域”，在区域内画一个盒子用于计算检测是否为开放水域。",
   "description.wurst.hack.overlay": "开采一个方块时渲染 Nuker 的动画。",
+  "description.wurst.hack.packetmine": "允许您更快地破坏方块，\n但使用数据包来挖掘方块。\n可能不是反作弊安全。",
   "description.wurst.hack.panic": "瞬间关闭所有的作弊功能。\n请小心使用！",
   "description.wurst.hack.parkour": "当你到达方块边缘时自动跳起。\n适用于跑酷或部分需要跑跳的场景。",
   "description.wurst.hack.playeresp": "高亮透视附近的玩家。\n你的好友会显示蓝色框框。",
