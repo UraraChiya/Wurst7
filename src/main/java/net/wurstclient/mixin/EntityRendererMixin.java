@@ -65,8 +65,6 @@ public abstract class EntityRendererMixin<T extends Entity>
 		if(d > 4096 && !nameTagsHack.isUnlimitedRange())
 			return;
 		
-		NameTagsHack nameTagsHack = WurstClient.INSTANCE.getHax().nameTagsHack;
-		
 		boolean bl = !entity.isSneaky() || nameTagsHack.isEnabled();
 		float f = entity.getHeight() + 0.5F;
 		int j = "deadmau5".equals(text.getString()) ? -10 : 0;
