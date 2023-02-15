@@ -57,6 +57,7 @@
     "ServerListMixin",
     "ShulkerBoxScreenMixin",
     "SignEditScreenMixin",
+    "SlimeBlockMixin",
     "SimpleOptionMixin",
     "SodiumBlockOcclusionCacheMixin",
     "StatsScreenMixin",
