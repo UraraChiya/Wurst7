@@ -146,6 +146,7 @@
   "description.wurst.hack.speednuker": "一个比 Nuker 更快的版本，但无法绕过反作弊。",
   "description.wurst.hack.spider": "允许你像蜘蛛一样爬墙。",
   "description.wurst.hack.step": "允许你走上更高（取决于你的设定）的方块。（类似你走上半砖的效果）",
+  "description.wurst.hack.strongholdfinder": "通过步行几乎完美地计算出要塞的位置。",
   "description.wurst.hack.throw": "多次使用你手中的物品，可以用于丢雪球、鸡蛋、刷怪蛋、矿车，诸如此类。\n\n会生成大量的数量，这会产生巨大的延迟且可能导致服务器崩溃。",
   "description.wurst.hack.tillaura": "自动将泥土、草块等方块转化为耕地。\n不要和 Killaura 搞混。",
   "description.wurst.hack.timer": "改变大部分东西的速度。",
