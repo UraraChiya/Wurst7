@@ -122,6 +122,7 @@
   "description.wurst.hack.nukerlegit": "Slower Nuker that bypasses all AntiCheat plugins.\nNot required on normal NoCheat+ servers!",
   "description.wurst.hack.openwateresp": "Shows whether or not you are fishing in 'open water' and draws a box around the area used for the open water calculation.",
   "description.wurst.hack.overlay": "Renders the Nuker animation whenever you mine a block.",
+  "description.wurst.hack.packetmine": "Allows you to break blocks faster but\nuses packets to mine blocks.\nProbably not anti-cheat safe.",
   "description.wurst.hack.panic": "Instantly turns off all enabled hacks.\nBe careful with this one!",
   "description.wurst.hack.parkour": "Makes you jump automatically when reaching the edge of a block.\nUseful for parkours and jump'n'runs.",
   "description.wurst.hack.playeresp": "Highlights nearby players.\nESP boxes of friends will appear in blue.",
