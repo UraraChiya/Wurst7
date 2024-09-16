@@ -58,3 +58,7 @@ jobs:
         files: |
           ./build/libs/*.jar
       continue-on-error: true
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v3.2.1-node20
+      with:
+        path: ./build/libs/*.jar
