@@ -31,28 +31,16 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
 
-    - name: Setup Gradle
-      uses: gradle/actions/setup-gradle@v4
-      with:
-        build-scan-publish: true
-        build-scan-terms-of-use-url: "https://gradle.com/help/legal-terms-of-use"
-        build-scan-terms-of-use-agree: "yes"
-
-    - name: Generate and submit dependency graph
-      if: ${{ github.event_name == 'push' }}
-      uses: gradle/actions/dependency-submission@v4
+    # - name: Setup Gradle
+    #   uses: gradle/actions/setup-gradle@v4
+    #   with:
+    #     build-scan-publish: true
+    #     build-scan-terms-of-use-url: "https://gradle.com/help/legal-terms-of-use"
+    #     build-scan-terms-of-use-agree: "yes"
 
     - name: Execute Gradle build
       run: ./gradlew spotlessCheck build --stacktrace --warning-mode=fail
 
-    - name: VirusTotal scan
-      if: ${{ github.event_name == 'push' }}
-      uses: crazy-max/ghaction-virustotal@v4
-      with:
-        vt_api_key: ${{ secrets.VIRUSTOTAL_API_KEY }}
-        files: |
-          ./build/libs/*.jar
-      continue-on-error: true
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v3.2.1-node20
       with:
